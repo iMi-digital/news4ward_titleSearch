@@ -1,0 +1,41 @@
+{
+        "name":"imi/news4ward_author-menu",
+        "description":"titleSearch",
+        "keywords":["news", "blog"],
+        "type":"contao-module",
+        "license":"LGPL-3.0+",
+        "authors":[
+                {
+                        "name":"Christoph Wiechert",
+                        "email":"wio@psitrax.de.de",
+                        "homepage":"http://4wardmedia.de",
+                        "role":"Developer"
+                },
+                {
+                        "name": "iMi digital GmbH",
+                        "homepage": "https://www.imi-digital.de",
+                        "role": "Maintainer"
+                }
+        ],
+        "support":{
+                "issues":"https://github.com/iMi-digital/news4ward_titleSearch/issues",
+                "forum":"https://community.contao.org/de/forumdisplay.php?110-4ward",
+                "irc":"irc://irc.freenode.org/contao.de",
+                "source":"https://github.com/iMi-digital/news4ward_titleSearch"
+        },
+        "require":{
+                "php":">=5.3",
+                "contao/core": ">=3.1,<4",
+                "imi/news4ward": "~2"
+        },
+        "replace":{
+                "psi/news4ward_title-search": "self.version"
+        },
+        "extra": {
+                "contao": {
+                        "sources": {
+                                "": "system/modules/news4ward_titleSearch"
+                        }
+                }
+        }
+} 
