@@ -1,5 +1,5 @@
 {
-        "name":"imi/news4ward_author-menu",
+        "name":"imi/news4ward_title-search",
         "description":"titleSearch",
         "keywords":["news", "blog"],
         "type":"contao-module",
